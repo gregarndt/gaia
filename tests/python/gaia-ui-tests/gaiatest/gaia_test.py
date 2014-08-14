@@ -754,7 +754,7 @@ class GaiaTestCase(MarionetteTestCase, B2GTestCaseMixin):
 
     def cleanup_data(self):
         self.device.file_manager.remove('/cache/*')
-        self.device.file_manager.remove('/data/b2g/mozilla')
+        #self.device.file_manager.remove('/data/b2g/mozilla')
         self.device.file_manager.remove('/data/local/debug_info_trigger')
         self.device.file_manager.remove('/data/local/indexedDB')
         self.device.file_manager.remove('/data/local/OfflineCache')
